@@ -17,6 +17,7 @@ for pr in permutations(persons):
         print(f'{A}, {B}, {C}, {D}')
         person_lst.append([D,C,B,A])
         count+=1
+        
 for i in person_lst:
     for j in i:
         person_dic[j].append(i.index(j))
